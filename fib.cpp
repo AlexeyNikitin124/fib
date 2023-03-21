@@ -10,6 +10,8 @@ long long int  fib(long long  n) {
 int main() {
     int n;
     cout << "Введите n: "; cin >> n;
-    cout << fib(n);
+    for (int i = 1; i <= n; ++i) {
+        cout << fib(i) << endl;;
+    }
     return 0;
 }
